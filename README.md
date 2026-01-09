@@ -6,6 +6,70 @@ Welcome! This is a simple Python project template designed to help you get start
 
 This project contains a basic Python program that prints "Hello World" to the screen. It's the perfect starting point for learning Python!
 
+## Setup and Installation
+
+### Using GitHub Codespaces (Recommended for Beginners)
+
+GitHub Codespaces provides a cloud-based development environment - no local setup required!
+
+1. **Clone this template to your account**:
+   - Click the **Use this template** button on the repository page
+   - Select **Create a new repository**
+   - Name your new repository and click **Create repository from template**
+
+2. **Open in Codespaces**:
+   - Go to your new repository
+   - Click the green **Code** button
+   - Select the **Codespaces** tab
+   - Click **Create codespace on main**
+   - VS Code will open in your browser with Python ready to use
+
+### Using a Local Dev Container
+
+**Prerequisites:**
+- [Docker](https://docs.docker.com/get-docker/) installed and running on your machine
+- [VS Code](https://code.visualstudio.com/) installed
+- [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) for VS Code
+
+If you prefer to code on your local machine, you can use Docker and VS Code's dev container support:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+   cd python-project-template
+   ```
+
+2. **Open in VS Code**:
+   - Open the folder in VS Code
+   - If you have Dev Containers extension installed, click the blue button in the bottom-left corner
+   - Select **Reopen in Container**
+   - VS Code will build and open the dev container with Python pre-configured
+
+3. **What's included**:
+   - Python 3 and pip3
+   - Git
+   - All common development tools
+   - Full VS Code experience
+
+### Clone for Local Development (Without Dev Container)
+
+**Prerequisites:**
+- [Python 3.8 or higher](https://www.python.org/downloads/) installed on your machine
+- [Git](https://git-scm.com/) installed
+- A text editor or IDE (like VS Code, PyCharm, or similar)
+
+**Steps:**
+
+If you prefer to work without containers:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+cd python-project-template
+python3 main.py
+```
+
+You should see `Hello World` printed to your terminal!
+
 ## Getting Started
 
 ### Step 1: Open the Project
